@@ -1,0 +1,160 @@
+IF (Height === RT && Weight === RN && SleepingTime === RI) THEN Development-Index === K
+IF (Height === RT && Weight === RN && SleepingTime === I) THEN Development-Index === K
+IF (Height === RT && Weight === RN && SleepingTime === BT) THEN Development-Index === BT
+IF (Height === RT && Weight === RN && SleepingTime === N) THEN Development-Index === BT
+IF (Height === RT && Weight === RN && SleepingTime === RN) THEN Development-Index === T
+
+IF (Height === RT && Weight === N && SleepingTime === RI) THEN Development-Index === K
+IF (Height === RT && Weight === N && SleepingTime === I) THEN Development-Index === K
+IF (Height === RT && Weight === N && SleepingTime === BT) THEN Development-Index === BT
+IF (Height === RT && Weight === N && SleepingTime === N) THEN Development-Index === BT
+IF (Height === RT && Weight === N && SleepingTime === RN) THEN Development-Index === T
+
+IF (Height === RT && Weight === BT && SleepingTime === RI) THEN Development-Index === K
+IF (Height === RT && Weight === BT && SleepingTime === I) THEN Development-Index === BT
+IF (Height === RT && Weight === BT && SleepingTime === BT) THEN Development-Index === BT
+IF (Height === RT && Weight === BT && SleepingTime === N) THEN Development-Index === T
+IF (Height === RT && Weight === BT && SleepingTime === RN) THEN Development-Index === T
+
+IF (Height === RT && Weight === M && SleepingTime === RI) THEN Development-Index === BT
+IF (Height === RT && Weight === M && SleepingTime === I) THEN Development-Index === T
+IF (Height === RT && Weight === M && SleepingTime === BT) THEN Development-Index === T
+IF (Height === RT && Weight === M && SleepingTime === N) THEN Development-Index === BT
+IF (Height === RT && Weight === M && SleepingTime === RN) THEN Development-Index === BT
+
+IF (Height === RT && Weight === RM && SleepingTime === RI) THEN Development-Index === BT
+IF (Height === RT && Weight === RM && SleepingTime === I) THEN Development-Index === BT
+IF (Height === RT && Weight === RM && SleepingTime === BT) THEN Development-Index === BT
+IF (Height === RT && Weight === RM && SleepingTime === N) THEN Development-Index === K
+IF (Height === RT && Weight === RM && SleepingTime === RN) THEN Development-Index === K
+
+---------------------------------------------------------------------------
+
+IF (Height === T && Weight === RN && SleepingTime === RI) THEN Development-Index === K
+IF (Height === T && Weight === RN && SleepingTime === I) THEN Development-Index === BT
+IF (Height === T && Weight === RN && SleepingTime === BT) THEN Development-Index === BT
+IF (Height === T && Weight === RN && SleepingTime === N) THEN Development-Index === K
+IF (Height === T && Weight === RN && SleepingTime === RN) THEN Development-Index === K
+
+IF (Height === T && Weight === N && SleepingTime === RI) THEN Development-Index === K
+IF (Height === T && Weight === N && SleepingTime === I) THEN Development-Index === BT
+IF (Height === T && Weight === N && SleepingTime === BT) THEN Development-Index === BT
+IF (Height === T && Weight === N && SleepingTime === N) THEN Development-Index === T
+IF (Height === T && Weight === N && SleepingTime === RN) THEN Development-Index === T
+
+IF (Height === T && Weight === BT && SleepingTime === RI) THEN Development-Index === K
+IF (Height === T && Weight === BT && SleepingTime === I) THEN Development-Index === BT
+IF (Height === T && Weight === BT && SleepingTime === BT) THEN Development-Index === BT
+IF (Height === T && Weight === BT && SleepingTime === N) THEN Development-Index === T
+IF (Height === T && Weight === BT && SleepingTime === RN) THEN Development-Index === BT
+
+IF (Height === T && Weight === M && SleepingTime === RI) THEN Development-Index === BT
+IF (Height === T && Weight === M && SleepingTime === I) THEN Development-Index === BT
+IF (Height === T && Weight === M && SleepingTime === BT) THEN Development-Index === T
+IF (Height === T && Weight === M && SleepingTime === N) THEN Development-Index === T
+IF (Height === T && Weight === M && SleepingTime === RN) THEN Development-Index === T
+
+IF (Height === T && Weight === RM && SleepingTime === RI) THEN Development-Index === BT
+IF (Height === T && Weight === RM && SleepingTime === I) THEN Development-Index === BT
+IF (Height === T && Weight === RM && SleepingTime === BT) THEN Development-Index === BT
+IF (Height === T && Weight === RM && SleepingTime === N) THEN Development-Index === K
+IF (Height === T && Weight === RM && SleepingTime === RN) THEN Development-Index === K
+
+---------------------------------------------------------------------------
+
+IF (Height === BT && Weight === RN && SleepingTime === RI) THEN Development-Index === K
+IF (Height === BT && Weight === RN && SleepingTime === I) THEN Development-Index === BT
+IF (Height === BT && Weight === RN && SleepingTime === BT) THEN Development-Index === BT
+IF (Height === BT && Weight === RN && SleepingTime === N) THEN Development-Index === K
+IF (Height === BT && Weight === RN && SleepingTime === RN) THEN Development-Index === K
+
+IF (Height === BT && Weight === N && SleepingTime === RI) THEN Development-Index === K
+IF (Height === BT && Weight === N && SleepingTime === I) THEN Development-Index === BT
+IF (Height === BT && Weight === N && SleepingTime === BT) THEN Development-Index === T
+IF (Height === BT && Weight === N && SleepingTime === N) THEN Development-Index === BT
+IF (Height === BT && Weight === N && SleepingTime === RN) THEN Development-Index === BT
+
+IF (Height === BT && Weight === BT && SleepingTime === RI) THEN Development-Index === K
+IF (Height === BT && Weight === BT && SleepingTime === I) THEN Development-Index === BT
+IF (Height === BT && Weight === BT && SleepingTime === BT) THEN Development-Index === T
+IF (Height === BT && Weight === BT && SleepingTime === N) THEN Development-Index === T
+IF (Height === BT && Weight === BT && SleepingTime === RN) THEN Development-Index === BT
+
+IF (Height === BT && Weight === M && SleepingTime === RI) THEN Development-Index === BT
+IF (Height === BT && Weight === M && SleepingTime === I) THEN Development-Index === BT
+IF (Height === BT && Weight === M && SleepingTime === BT) THEN Development-Index === BT
+IF (Height === BT && Weight === M && SleepingTime === N) THEN Development-Index === T
+IF (Height === BT && Weight === M && SleepingTime === RN) THEN Development-Index === T
+
+IF (Height === BT && Weight === RM && SleepingTime === RI) THEN Development-Index === BT
+IF (Height === BT && Weight === RM && SleepingTime === I) THEN Development-Index === BT
+IF (Height === BT && Weight === RM && SleepingTime === BT) THEN Development-Index === BT
+IF (Height === BT && Weight === RM && SleepingTime === N) THEN Development-Index === K
+IF (Height === BT && Weight === RM && SleepingTime === RN) THEN Development-Index === K
+
+---------------------------------------------------------------------------
+
+IF (Height === C && Weight === RN && SleepingTime === RI) THEN Development-Index === K
+IF (Height === C && Weight === RN && SleepingTime === I) THEN Development-Index === K
+IF (Height === C && Weight === RN && SleepingTime === BT) THEN Development-Index === BT
+IF (Height === C && Weight === RN && SleepingTime === N) THEN Development-Index === BT
+IF (Height === C && Weight === RN && SleepingTime === RN) THEN Development-Index === BT
+
+IF (Height === C && Weight === N && SleepingTime === RI) THEN Development-Index === K
+IF (Height === C && Weight === N && SleepingTime === I) THEN Development-Index === K
+IF (Height === C && Weight === N && SleepingTime === BT) THEN Development-Index === BT
+IF (Height === C && Weight === N && SleepingTime === N) THEN Development-Index === BT
+IF (Height === C && Weight === N && SleepingTime === RN) THEN Development-Index === BT
+
+IF (Height === C && Weight === BT && SleepingTime === RI) THEN Development-Index === K
+IF (Height === C && Weight === BT && SleepingTime === I) THEN Development-Index === BT
+IF (Height === C && Weight === BT && SleepingTime === BT) THEN Development-Index === BT
+IF (Height === C && Weight === BT && SleepingTime === N) THEN Development-Index === BT
+IF (Height === C && Weight === BT && SleepingTime === RN) THEN Development-Index === BT
+
+IF (Height === C && Weight === M && SleepingTime === RI) THEN Development-Index === BT
+IF (Height === C && Weight === M && SleepingTime === I) THEN Development-Index === BT
+IF (Height === C && Weight === M && SleepingTime === BT) THEN Development-Index === BT
+IF (Height === C && Weight === M && SleepingTime === N) THEN Development-Index === T
+IF (Height === C && Weight === M && SleepingTime === RN) THEN Development-Index === T
+
+IF (Height === C && Weight === RM && SleepingTime === RI) THEN Development-Index === K
+IF (Height === C && Weight === RM && SleepingTime === I) THEN Development-Index === BT
+IF (Height === C && Weight === RM && SleepingTime === BT) THEN Development-Index === BT
+IF (Height === C && Weight === RM && SleepingTime === N) THEN Development-Index === T
+IF (Height === C && Weight === RM && SleepingTime === RN) THEN Development-Index === T
+
+---------------------------------------------------------------------------
+
+IF (Height === RC && Weight === RN && SleepingTime === RI) THEN Development-Index === K
+IF (Height === RC && Weight === RN && SleepingTime === I) THEN Development-Index === K
+IF (Height === RC && Weight === RN && SleepingTime === BT) THEN Development-Index === BT
+IF (Height === RC && Weight === RN && SleepingTime === N) THEN Development-Index === BT
+IF (Height === RC && Weight === RN && SleepingTime === RN) THEN Development-Index === BT
+
+IF (Height === RC && Weight === N && SleepingTime === RI) THEN Development-Index === K
+IF (Height === RC && Weight === N && SleepingTime === I) THEN Development-Index === K
+IF (Height === RC && Weight === N && SleepingTime === BT) THEN Development-Index === BT
+IF (Height === RC && Weight === N && SleepingTime === N) THEN Development-Index === BT
+IF (Height === RC && Weight === N && SleepingTime === RN) THEN Development-Index === BT
+
+IF (Height === RC && Weight === BT && SleepingTime === RI) THEN Development-Index === K
+IF (Height === RC && Weight === BT && SleepingTime === I) THEN Development-Index === BT
+IF (Height === RC && Weight === BT && SleepingTime === BT) THEN Development-Index === BT
+IF (Height === RC && Weight === BT && SleepingTime === N) THEN Development-Index === T
+IF (Height === RC && Weight === BT && SleepingTime === RN) THEN Development-Index === BT
+
+IF (Height === RC && Weight === M && SleepingTime === RI) THEN Development-Index === K
+IF (Height === RC && Weight === M && SleepingTime === I) THEN Development-Index === BT
+IF (Height === RC && Weight === M && SleepingTime === BT) THEN Development-Index === T
+IF (Height === RC && Weight === M && SleepingTime === N) THEN Development-Index === T
+IF (Height === RC && Weight === M && SleepingTime === RN) THEN Development-Index === BT
+
+IF (Height === RC && Weight === RM && SleepingTime === RI) THEN Development-Index === K
+IF (Height === RC && Weight === RM && SleepingTime === I) THEN Development-Index === BT
+IF (Height === RC && Weight === RM && SleepingTime === BT) THEN Development-Index === T
+IF (Height === RC && Weight === RM && SleepingTime === N) THEN Development-Index === T
+IF (Height === RC && Weight === RM && SleepingTime === RN) THEN Development-Index === BT
+
+
+
